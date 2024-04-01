@@ -1,5 +1,15 @@
 *, *::before, *::after{
     box-sizing: border-box;
+
+    margin: 0;
+	padding: 0;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 html{
@@ -19,6 +29,7 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 100vh;
 }
 
 /* Header */
@@ -28,7 +39,6 @@ img{
     align-items: center;
     height: 73px;
     border-bottom: 1px solid #E5E9F2;
-
 }
 
 .header-container{
@@ -36,12 +46,10 @@ img{
     margin: 0 auto;
     display: flex;
     align-items: center;
-
 }
 
 .logo{
     margin-right: 40px;
-
 }
 
 .nav{
@@ -68,8 +76,6 @@ img{
 .appstore{
     margin-left: auto;
     display: flex;
-
-
 }
 
 .appstore-item{
@@ -82,30 +88,18 @@ img{
 
 /* Main */
 
-.main{
-
-}
-
 .main-container{
     width: 1110px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    padding-top: 197px;
-    padding-bottom: 197px;
 }
 
 .main-content{
     font-size: 18px;
     color: #18191F;
     width: 540px;
-
-}
-
-.main-image{
-
 }
 
 .main-header{
@@ -115,7 +109,6 @@ img{
     font-weight: 800;
     line-height: 1.36;
     color: #18191F;
-
 }
 
 .main-text{
@@ -148,6 +141,7 @@ img{
 .button:hover{
     opacity: 0.8;
 }
+
 
 /* Footer */
 
